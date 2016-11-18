@@ -1,1 +1,42 @@
+/***************************************
+MENU DAN JUDUL WEB
+****************************************/
+h1 {
+    font-family: courier;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+    margin-top:0.2px;
+    padding-top: 12px;
+    padding-bottom: 3px;
+    float: left;
+    background-color: #333;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
 
+li {
+    float: right;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+li i{
+    padding-right: 1px;
+}
